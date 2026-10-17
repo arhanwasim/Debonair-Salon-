@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#141414" />
+  <title>Contact &amp; Appointment | Debonair Salon</title>
+  <meta name="description" content="Contact Debonair Salon or prepare a WhatsApp appointment enquiry" />
+  <meta property="og:title" content="Contact &amp; Appointment | Debonair Salon" />
+  <meta property="og:description" content="Contact Debonair Salon or prepare a WhatsApp appointment enquiry" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/catalog.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="contact">
+  <!-- Dynamic Site Header -->
+  <header class="header" id="site-header"></header>
+
+  <main id="main">
+    <!-- Contact Masthead -->
+    <section class="masthead contact-masthead">
+      <span class="eyebrow">We'd love to hear from you</span>
+      <h1>Contact &amp; Booking</h1>
+    </section>
+
+    <!-- Unified Contact & Booking Section -->
+    <section class="section contact-unified-section">
+      <div class="container">
+        <div class="contact-unified-grid">
+          <!-- Left: Appointment Request Form -->
+          <div class="contact-unified-left">
+            <div id="book-appointment">
+              <span class="eyebrow">Appointment enquiry</span>
+              <h2>Request Your Visit</h2>
+              <p>
+                Complete the form to prepare a WhatsApp message. You must send it yourself; your appointment is confirmed only after the salon replies.
+              </p>
+              <form id="appointment-form">
+                <div class="form-grid">
+                  <div class="field">
+                    <label for="customer">Name</label>
+                    <input autocomplete="name" id="customer" maxlength="100" name="customer" placeholder="Your name" required="" />
+                  </div>
+                  <div class="field">
+                    <label for="phone">Phone / WhatsApp</label>
+                    <input autocomplete="tel" id="phone" name="phone" placeholder="03XXXXXXXXX" required="" type="tel" />
+                  </div>
+                  <div class="field">
+                    <label for="service">Preferred Service</label>
+                    <select id="service" name="service" required="">
+                      <option value="">Select service</option>
+                      <option>Men's Services</option>
+                      <option>Women's Services</option>
+                      <option>Debonair Deal / Package</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="branch">Branch</label>
+                    <select id="branch" name="branch" required="">
+                      <option value="">Select branch</option>
+                      <option>Debonair Salon Shaheed-e-Millat Branch</option>
+                      <option>Debonair Salon Seher Commercial Branch</option>
+                      <option>Debonair Salon Bukhari Branch</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="date">Preferred Date</label>
+                    <input id="date" name="date" required="" type="date" />
+                  </div>
+                  <div class="field">
+                    <label for="time">Preferred Time</label>
+                    <input id="time" name="time" required="" type="time" />
+                  </div>
+                </div>
+                <div class="actions">
+                  <button class="btn fill" type="submit">Send via WhatsApp ↗</button>
+                </div>
+                <p aria-live="polite" class="form-status" id="form-status" role="status"></p>
+                <a class="text-link hidden" id="manual-wa" rel="noopener noreferrer" target="_blank">
+                  Open prepared WhatsApp message manually ↗
+                </a>
+              </form>
+            </div>
+          </div>
+
+          <!-- Right: Branches Directory -->
+          <div class="contact-unified-right">
+            <div class="branch-grid">
+              <article class="branch">
+                <span class="eyebrow branch-number">BRANCH 01</span>
+                <h3>Debonair Salon Shaheed-e-Millat Branch</h3>
+                <p class="branch-city">Karachi</p>
+                <p class="branch-hours"><strong>Opening Hours:</strong> 10:30 AM – 11:30 PM</p>
+                <div class="branch-actions">
+                  <a
+                    aria-label="View location of Debonair Salon Shaheed-e-Millat Branch on Google Maps"
+                    class="btn branch-location"
+                    href="https://share.google/5Sy5ObxdRhe7OUbqG"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >VIEW LOCATION ↗</a>
+                  <a
+                    class="btn branch-enquiry"
+                    data-branch="Debonair Salon Shaheed-e-Millat Branch"
+                    href="#book-appointment"
+                  >Enquire for this branch</a>
+                </div>
+              </article>
+
+              <article class="branch">
+                <span class="eyebrow branch-number">BRANCH 02</span>
+                <h3>Debonair Salon Seher Commercial Branch</h3>
+                <p class="branch-city">Karachi</p>
+                <p class="branch-hours"><strong>Opening Hours:</strong> 10:30 AM – 11:30 PM</p>
+                <div class="branch-actions">
+                  <a
+                    aria-label="View location of Debonair Salon Seher Commercial Branch on Google Maps"
+                    class="btn branch-location"
+                    href="https://share.google/ngBiQtd1FlEuitcjI"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >VIEW LOCATION ↗</a>
+                  <a
+                    class="btn branch-enquiry"
+                    data-branch="Debonair Salon Seher Commercial Branch"
+                    href="#book-appointment"
+                  >Enquire for this branch</a>
+                </div>
+              </article>
+
+              <article class="branch">
+                <span class="eyebrow branch-number">BRANCH 03</span>
+                <h3>Debonair Salon Bukhari Branch</h3>
+                <p class="branch-city">Karachi</p>
+                <p class="branch-hours"><strong>Opening Hours:</strong> 10:30 AM – 11:30 PM</p>
+                <div class="branch-actions">
+                  <a
+                    aria-label="View location of Debonair Salon Bukhari Branch on Google Maps"
+                    class="btn branch-location"
+                    href="https://share.google/H75xiZkRyY7kfpgSU"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >VIEW LOCATION ↗</a>
+                  <a
+                    class="btn branch-enquiry"
+                    data-branch="Debonair Salon Bukhari Branch"
+                    href="#book-appointment"
+                  >Enquire for this branch</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dynamic Footer -->
+  <footer class="footer" id="site-footer"></footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a
+    aria-label="Enquire on WhatsApp"
+    class="float-wa"
+    data-wa="Hello Debonair Salon, I would like to enquire about your services."
+    href="https://wa.me/923070881490"
+  >WhatsApp ↗</a>
+</body>
+</html>

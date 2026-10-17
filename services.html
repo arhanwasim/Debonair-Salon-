@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#141414" />
+  <title>Services | Debonair Salon</title>
+  <meta name="description" content="Browse Debonair Salon men’s and women’s services and 47 numbered deals" />
+  <meta property="og:title" content="Services | Debonair Salon" />
+  <meta property="og:description" content="Browse Debonair Salon men’s and women’s services and 47 numbered deals" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/catalog.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="services">
+  <!-- Dynamic Site Header -->
+  <header class="header" id="site-header"></header>
+
+  <main id="main">
+    <!-- Services Masthead -->
+    <section class="masthead services-masthead">
+      <span class="eyebrow">Discover our services</span>
+      <h1>Services &amp; Deals</h1>
+      <p>Find your style. Enquire directly on WhatsApp.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section">
+      <div class="container">
+        <!-- Visual Mood Board -->
+        <div class="service-photo-stage">
+          <img
+            alt="Reference photograph of men’s grooming"
+            height="460"
+            id="service-feature-image"
+            src="assets/mens-services-approved.webp"
+            width="820"
+          />
+          <div class="service-photo-copy">
+            <span class="eyebrow">PHOTO MOOD BOARD · NOT ACTUAL SALON IMAGERY</span>
+            <h2 id="service-feature-title">The art of grooming</h2>
+            <p id="service-feature-description">
+              Explore the men’s service categories below and enquire directly with the team.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service Tabs -->
+        <div aria-label="Service audience" class="tabs" role="tablist">
+          <button aria-selected="true" class="tab" data-group="men" role="tab">Men's Services</button>
+          <button aria-selected="false" class="tab" data-group="women" role="tab">Women's Services</button>
+          <button aria-selected="false" class="tab" data-group="deals" role="tab">Packages · 01–47</button>
+        </div>
+
+        <!-- Dynamic Service / Catalog Grid -->
+        <div aria-live="polite" class="catalog-grid" id="catalog-area"></div>
+
+        <!-- Book Action -->
+        <div class="actions">
+          <a class="btn fill" href="contact.html#book-appointment">Book Appointment</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dynamic Footer -->
+  <footer class="footer" id="site-footer"></footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a
+    aria-label="Enquire on WhatsApp"
+    class="float-wa"
+    data-wa="Hello Debonair Salon, I would like to enquire about your services."
+    href="https://wa.me/923070881490"
+  >WhatsApp ↗</a>
+</body>
+</html>

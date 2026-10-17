@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Review prototype; replace before production launch
