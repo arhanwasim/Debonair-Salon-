@@ -802,6 +802,7 @@ window.DEBONAIR_CATALOG = {
   "deals": [
     {
       "number": 1,
+      "price": "Rs. 599",
       "inclusions": [
         "Beard/Shave",
         "Face Wash Massage",
@@ -810,6 +811,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 2,
+      "price": "Rs. 599",
       "inclusions": [
         "Classic Haircut (Fade not included)",
         "Face Wash Massage",
@@ -818,6 +820,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 3,
+      "price": "Rs. 699",
       "inclusions": [
         "Classic Haircut (Fade not included)",
         "Beard/Shave",
@@ -828,6 +831,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 4,
+      "price": "Rs. 1,099",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -839,6 +843,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 5,
+      "price": "Rs. 1,699",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -851,6 +856,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 6,
+      "price": "Rs. 2,099",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -864,6 +870,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 7,
+      "price": "Rs. 1,599",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -877,6 +884,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 8,
+      "price": "Rs. 2,299",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -890,6 +898,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 9,
+      "price": "Rs. 2,799",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -903,6 +912,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 10,
+      "price": "Rs. 2,899",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -915,6 +925,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 11,
+      "price": "Rs. 3,199",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -927,6 +938,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 12,
+      "price": "Rs. 4,199 / 5,199",
       "inclusions": [
         "Whitening Hand Polish",
         "Whitening Feet Polish",
@@ -939,6 +951,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 13,
+      "price": "Rs. 3,699",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -951,6 +964,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 14,
+      "price": "Rs. 4,099",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -963,6 +977,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 15,
+      "price": "Rs. 1,899",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -975,6 +990,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 16,
+      "price": "Rs. 2,999",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -987,6 +1003,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 17,
+      "price": "Rs. 4,299",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -999,6 +1016,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 18,
+      "price": "Rs. 3,999",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1011,6 +1029,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 19,
+      "price": "Rs. 5,999 / 6,999",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1024,6 +1043,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 20,
+      "price": "Rs. 4,499",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1036,6 +1056,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 21,
+      "price": "Rs. 4,699",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1048,6 +1069,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 22,
+      "price": "Rs. 6,499",
       "inclusions": [
         "Round Keratin",
         "Straightening & Ironing",
@@ -1059,6 +1081,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 23,
+      "price": "Rs. 5,999",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1072,6 +1095,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 24,
+      "price": "Rs. 7,999",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1084,6 +1108,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 25,
+      "price": "Rs. 6,499",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1096,6 +1121,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 26,
+      "price": "Rs. 8,999",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1108,6 +1134,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 27,
+      "price": "Rs. 10,999",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1120,6 +1147,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 28,
+      "price": "Rs. 9,499",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1132,6 +1160,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 29,
+      "price": "Rs. 14,499 / 11,999 / 9,999",
       "inclusions": [
         "Grand 11 in One Hydra Facial",
         "Deep Cleansing",
@@ -1144,6 +1173,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 30,
+      "price": "Rs. 8,499",
       "inclusions": [
         "Grand 11 in One Hydra Facial",
         "Deep Cleansing",
@@ -1156,6 +1186,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 31,
+      "price": "Rs. 13,999",
       "inclusions": [
         "Non Surgical Hair Treatment (Hair Patch)",
         "First Service",
@@ -1167,6 +1198,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 32,
+      "price": "Rs. 7,999 / 10,499",
       "inclusions": [
         "Full Body Wax",
         "Head, Shoulder, Back & Foot Massage (30mins)"
@@ -1174,6 +1206,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 33,
+      "price": "Rs. 5,499",
       "inclusions": [
         "Head Massage",
         "Shoulder & Back Massage",
@@ -1186,6 +1219,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 34,
+      "price": "Rs. 1,599",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1198,6 +1232,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 35,
+      "price": "Rs. 8,499",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1210,6 +1245,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 36,
+      "price": "Rs. 8,499",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",
@@ -1222,6 +1258,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 37,
+      "price": "Rs. 9,999",
       "inclusions": [
         "Walima Package",
         "Master Haircut",
@@ -1234,6 +1271,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 38,
+      "price": "Rs. 15,999",
       "inclusions": [
         "Walima Package",
         "Master Haircut",
@@ -1246,6 +1284,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 39,
+      "price": "Rs. 10,999",
       "inclusions": [
         "2 Day Package",
         "Event 1: Master Haircut & Beard/Shave",
@@ -1257,6 +1296,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 40,
+      "price": "Rs. 12,999",
       "inclusions": [
         "2 Day Package",
         "Event 1: Master Haircut/Beard/Shave",
@@ -1268,6 +1308,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 41,
+      "price": "Rs. 14,999",
       "inclusions": [
         "2 Day Package",
         "Event 1: Beard/Shave",
@@ -1280,6 +1321,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 42,
+      "price": "Rs. 16,999",
       "inclusions": [
         "2 Day Package",
         "Event 1: Master Haircut",
@@ -1292,6 +1334,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 43,
+      "price": "Rs. 19,999",
       "inclusions": [
         "2 Day Package",
         "Event 1: Master Haircut",
@@ -1304,6 +1347,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 44,
+      "price": "Rs. 16,999",
       "inclusions": [
         "3 Day Package",
         "Event 1: Master Haircut",
@@ -1316,6 +1360,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 45,
+      "price": "Rs. 19,999",
       "inclusions": [
         "3 Day Package",
         "Event 1: Master Haircut",
@@ -1327,6 +1372,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 46,
+      "price": "Rs. 24,999",
       "inclusions": [
         "3 Day Package",
         "Event 1: Master Haircut",
@@ -1338,6 +1384,7 @@ window.DEBONAIR_CATALOG = {
     },
     {
       "number": 47,
+      "price": "Rs. 7,999",
       "inclusions": [
         "Master Haircut",
         "Beard/Shave",

@@ -172,3 +172,16 @@ Latest update: Footer social links now use icon-only Instagram and Facebook acti
 ### Outstanding
 
 - Actual external Google Maps destination redirects, live WhatsApp handoff, and deployment navigation require testing in an unrestricted browser.
+
+## Packages (Deals 01–47) Pricing Integration — 18 October 2026
+
+**Changed files:**
+- `js/catalog.js`: Added official client-provided pricing for all 47 numbered packages/deals (`Deal 1` through `Deal 47`), including multi-tier pricing variants (Deals 12, 19, 29, 32).
+- `js/main.js`: Rendered `.deal-price` element inside each deal card on the Services page (`services.html#deals`). Updated the prefilled WhatsApp enquiry URL to include the package price automatically.
+- `css/style.css`: Added styles for `.deal-price`, `.deal-price-label`, and `.deal-price-val`, maintaining the warm-beige card aesthetic with responsive styling for tablet and mobile screens.
+
+**Verification results:**
+- 47 of 47 deals verified with exact pricing matches and zero missing prices.
+- Node.js syntax and runtime validation passed without errors.
+- HTTP server test verified 200 OK responses for `/services.html`, `/js/catalog.js`, `/js/main.js`, and `/css/style.css`.
+

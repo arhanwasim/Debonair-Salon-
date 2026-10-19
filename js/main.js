@@ -151,6 +151,12 @@
           cat.deals.forEach((deal) => {
             const label = `Debonair Deal ${String(deal.number).padStart(2, '0')}`;
             const includes = deal.inclusions.map((name) => `<li>${escapeHtml(name)}</li>`).join('');
+            const priceHtml = deal.price
+              ? `<div class="deal-price-block"><span class="deal-price-label">Price</span><strong class="deal-price-val">${escapeHtml(deal.price)}</strong></div>`
+              : '';
+            const waMsg = deal.price
+              ? `Hello Debonair Salon, I would like to book or enquire about ${label} (${deal.price}). Please confirm availability.`
+              : `Hello Debonair Salon, please share the inclusions, price and availability for ${label}.`;
             area.insertAdjacentHTML(
               'beforeend',
               `<article class="service-card deal-card">
@@ -158,7 +164,10 @@
                 <h3>${label}</h3>
                 <span class="deal-includes-title">Package Includes</span>
                 <ul class="deal-inclusions">${includes}</ul>
-                <a class="btn" target="_blank" rel="noopener noreferrer" href="${wa('Hello Debonair Salon, please share the inclusions, price and availability for ' + label + '.')}">Call on WhatsApp</a>
+                <div class="deal-action-row">
+                  ${priceHtml}
+                  <a class="btn" target="_blank" rel="noopener noreferrer" href="${wa(waMsg)}">Call on WhatsApp</a>
+                </div>
               </article>`
             );
           });

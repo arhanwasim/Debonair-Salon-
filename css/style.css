@@ -274,10 +274,19 @@ body[data-page="home"] .cinematic-hero__actions .btn:not(.fill):hover{
 .deal-inclusions{padding:0;margin:0 0 17px;list-style:none;flex:1;min-width:0}
 .deal-inclusions li{position:relative;padding:9px 0 9px 20px;color:var(--cream-ink);font-size:14px;line-height:1.55;border-bottom:1px solid rgba(67,46,29,.22);overflow-wrap:anywhere}
 .deal-inclusions li::before{content:'';position:absolute;left:1px;top:18px;width:6px;height:6px;border-radius:50%;background:#735333}
-.deal-card .btn{margin-top:auto;align-self:flex-start;min-height:48px;text-align:center;position:relative;z-index:26}
+.deal-action-row{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:14px;padding-top:14px;border-top:1px solid rgba(67,46,29,.24)}
+.deal-price-block{display:flex;flex-direction:column;min-width:0;flex:1;gap:2px}
+.deal-price-label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#63472a;line-height:1.2}
+.deal-price-val{font-size:clamp(15px,1.25vw,17px);font-weight:700;color:#1c1815;line-height:1.3;letter-spacing:.01em;overflow-wrap:break-word}
+.deal-action-row .btn{margin-top:0;flex-shrink:0;padding:11px 18px;min-height:46px;font-size:11px;white-space:nowrap;align-self:center;text-align:center;position:relative;z-index:26}
 body[data-page="services"] .section{padding-top:clamp(38px,4.9vw,68px)}
 body[data-page="services"] .service-photo-stage{margin-bottom:30px}
-@media (max-width:767px){.deal-card .btn{width:100%}.deal-inclusions li{font-size:13.5px}}
+@media (max-width:767px){.deal-inclusions li{font-size:13.5px}}
+@media (max-width:479px){
+  .deal-action-row{flex-wrap:wrap;gap:10px}
+  .deal-price-block{width:100%;flex-direction:row;align-items:baseline;justify-content:space-between}
+  .deal-action-row .btn{width:100%;min-height:46px}
+}
 
 
 /* Contact-only branch directory: confirmed names, hours and supplied map links. */
