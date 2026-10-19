@@ -162,8 +162,21 @@
             Discover Debonair Salon across three locations in Karachi. Whether you're visiting our Bukhari, Seher Commercial, or Shaheed-e-Millat branch, explore the location that is most convenient for you. Select your preferred branch below to view its location on Google Maps and plan your visit.
           </p>
         </div>
+        <!-- Active Branch Spotlight -->
+        <div class="active-branch-spotlight" id="active-branch-spotlight">
+          <div class="spotlight-left">
+            <span class="eyebrow">Your Active Location</span>
+            <h3 id="spotlight-branch-name">Debonair Salon Bukhari Branch</h3>
+            <p id="spotlight-branch-details">Karachi · Bukhari Commercial · Hours: 10:30 AM – 11:30 PM · WhatsApp: 0302 3159374</p>
+          </div>
+          <div class="spotlight-actions">
+            <a id="spotlight-wa-btn" class="btn fill" href="https://wa.me/923023159374?text=Hello%20Debonair%20Salon%2C%20I%20would%20like%20to%20enquire%20about%20Bukhari%20Branch." target="_blank" rel="noopener noreferrer">Message Branch</a>
+            <button type="button" class="btn spotlight-change-btn" id="spotlight-change-trigger">Change Branch</button>
+          </div>
+        </div>
+
         <div class="visit-card-grid">
-          <article aria-labelledby="visit-branch-1" class="visit-card">
+          <article aria-labelledby="visit-branch-1" class="visit-card" data-branch-key="bukhari">
             <span class="visit-card__number">BRANCH 01</span>
             <h3 id="visit-branch-1">Debonair Salon Bukhari Branch</h3>
             <p class="visit-card__city">
@@ -201,10 +214,15 @@
                 rel="noopener noreferrer"
                 target="_blank"
               >VIEW LOCATION</a>
+              <button
+                type="button"
+                class="btn visit-card__action visit-card__select-btn"
+                data-set-branch="bukhari"
+              >SELECT THIS BRANCH</button>
             </div>
           </article>
 
-          <article aria-labelledby="visit-branch-2" class="visit-card">
+          <article aria-labelledby="visit-branch-2" class="visit-card" data-branch-key="seher">
             <span class="visit-card__number">BRANCH 02</span>
             <h3 id="visit-branch-2">Debonair Salon Seher Commercial Branch</h3>
             <p class="visit-card__city">
@@ -242,10 +260,15 @@
                 rel="noopener noreferrer"
                 target="_blank"
               >VIEW LOCATION</a>
+              <button
+                type="button"
+                class="btn visit-card__action visit-card__select-btn"
+                data-set-branch="seher"
+              >SELECT THIS BRANCH</button>
             </div>
           </article>
 
-          <article aria-labelledby="visit-branch-3" class="visit-card">
+          <article aria-labelledby="visit-branch-3" class="visit-card" data-branch-key="shaheed">
             <span class="visit-card__number">BRANCH 03</span>
             <h3 id="visit-branch-3">Debonair Salon Shaheed-e-Millat Branch</h3>
             <p class="visit-card__city">
@@ -283,6 +306,11 @@
                 rel="noopener noreferrer"
                 target="_blank"
               >VIEW LOCATION</a>
+              <button
+                type="button"
+                class="btn visit-card__action visit-card__select-btn"
+                data-set-branch="shaheed"
+              >SELECT THIS BRANCH</button>
             </div>
           </article>
         </div>
