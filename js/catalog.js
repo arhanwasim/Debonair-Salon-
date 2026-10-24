@@ -328,6 +328,37 @@ window.DEBONAIR_CATALOG = {
       ]
     },
     {
+      "title": "Keratin",
+      "items": [
+        { "name": "Women Keratin (Shoulder Length)", "price": "Rs. 15,000" }
+      ]
+    },
+    {
+      "title": "Relaxing Extenso Rebonding",
+      "items": [
+        { "name": "Women Relaxing Extenso Rebonding (Shoulder Length)", "price": "Rs. 15,000" }
+      ]
+    },
+    {
+      "title": "Hair Protein Treatment",
+      "items": [
+        { "name": "Women Hair Protein Treatment", "price": "Rs. 4,000" }
+      ]
+    },
+    {
+      "title": "Absolute Repair",
+      "items": [
+        { "name": "Women Absolute Repair", "price": "Rs. 4,000" }
+      ]
+    },
+    {
+      "title": "Shampoo Wash",
+      "items": [
+        { "name": "Women Shampoo Wash", "price": "Rs. 800" },
+        { "name": "Shampoo + Iron", "price": "Rs. 2,000" }
+      ]
+    },
+    {
       "title": "Hydra Facials",
       "items": [
         { "name": "Grand 11 in One Hydra", "price": "Rs. 10,000" },
