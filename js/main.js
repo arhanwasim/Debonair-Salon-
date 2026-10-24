@@ -477,10 +477,20 @@
 
         if (type === 'deals' && cat && cat.deals) {
           cat.deals.forEach((deal) => {
-            const label = `Debonair Deal ${String(deal.number).padStart(2, '0')}`;
-            const includes = deal.inclusions.map((name) => `<li>${escapeHtml(name)}</li>`).join('');
+            const titlePart = deal.title ? ` · ${deal.title}` : '';
+            const label = `Deal #${String(deal.number).padStart(2, '0')}${titlePart}`;
+            const includes = deal.inclusions.map((name) => {
+              const trimmed = name.trim();
+              if (/^Event\s+\d/i.test(trimmed)) {
+                return `<li class="deal-event-header">${escapeHtml(trimmed)}</li>`;
+              }
+              return `<li>${escapeHtml(trimmed)}</li>`;
+            }).join('');
             const priceHtml = deal.price
               ? `<div class="deal-price-block"><span class="deal-price-label">Price</span><strong class="deal-price-val">${escapeHtml(deal.price)}</strong></div>`
+              : '';
+            const noteHtml = deal.note
+              ? `<p class="deal-note">${escapeHtml(deal.note)}</p>`
               : '';
             const waMsg = deal.price
               ? `Hello Debonair Salon (${activeBranch.shortName}), I would like to book or enquire about ${label} (${deal.price}). Please confirm availability.`
@@ -492,6 +502,7 @@
                 <h3>${label}</h3>
                 <span class="deal-includes-title">Package Includes</span>
                 <ul class="deal-inclusions">${includes}</ul>
+                ${noteHtml}
                 <div class="deal-action-row">
                   ${priceHtml}
                   <a class="btn" target="_blank" rel="noopener noreferrer" href="${wa(waMsg, activeBranch.key)}">Call on WhatsApp</a>
@@ -503,7 +514,12 @@
           cat[type].forEach((group, index) => {
             const audience = type === 'men' ? 'men' : 'women';
             const rows = group.items
-              .map((item) => `<li class="price-row"><span>${escapeHtml(item.name)}</span><strong>${escapeHtml(item.price)}</strong></li>`)
+              .map((item) => {
+                if (item.header) {
+                  return `<li class="price-section-header"><span>${escapeHtml(item.header)}</span></li>`;
+                }
+                return `<li class="price-row"><span>${escapeHtml(item.name)}</span><strong>${escapeHtml(item.price)}</strong></li>`;
+              })
               .join('');
             const note = group.note ? `<p class="price-note">${escapeHtml(group.note)}</p>` : '';
             const sub = group.subheading ? `<p class="price-subheading">${escapeHtml(group.subheading)}</p>` : '';
@@ -530,7 +546,9 @@
           t.tabIndex = t === tab ? 0 : -1;
         });
         render(tab.dataset.group);
-        history.replaceState(null, '', '#' + tab.dataset.group);
+        try {
+          history.replaceState(null, '', '#' + tab.dataset.group);
+        } catch (_) {}
       })
     );
 

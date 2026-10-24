@@ -77,7 +77,7 @@ html{scroll-padding-top:90px}body{overflow-x:hidden}.header{position:sticky;top:
 
 
 /* Complete category-wise price lists */
-.price-card{height:auto;display:flex;flex-direction:column;align-items:stretch;min-width:0}.price-card h3{margin-bottom:18px}.price-list{padding:0;margin:0 0 24px;list-style:none;width:100%}.price-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:start;border-bottom:1px solid #38332e;padding:11px 0;font-size:14px;line-height:1.6}.price-row span{min-width:0;overflow-wrap:break-word}.price-row strong{white-space:nowrap;color:#d0a45d;font-weight:600;text-align:right}.price-card .btn{align-self:flex-start;margin-top:auto}.price-note{color:#d6d3cc;line-height:1.7;margin:0 0 24px}.price-subheading{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#b9b2a7;margin:0 0 8px}@media(max-width:479px){.price-row{font-size:13px;gap:10px}.price-card{padding:22px 18px}}
+.price-card{height:auto;display:flex;flex-direction:column;align-items:stretch;min-width:0}.price-card h3{margin-bottom:18px}.price-list{padding:0;margin:0 0 24px;list-style:none;width:100%}.price-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:start;border-bottom:1px solid #38332e;padding:11px 0;font-size:14px;line-height:1.6}.price-row span{min-width:0;overflow-wrap:break-word}.price-row strong{white-space:nowrap;color:#d0a45d;font-weight:600;text-align:right}.price-card .btn{align-self:flex-start;margin-top:auto}.price-note{color:#d6d3cc;line-height:1.7;margin:0 0 24px}.price-subheading{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#b9b2a7;margin:0 0 8px}.price-section-header{list-style:none;padding:14px 0 6px;margin:10px 0 2px;border-bottom:2px solid rgba(67,46,29,.28);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#5a3f23}@media(max-width:479px){.price-row{font-size:13px;gap:10px}.price-card{padding:22px 18px}}
 
 
 /* Debonair / 15 Oct 2026 — uniform warm-beige pricing cards, retained
@@ -284,6 +284,9 @@ body[data-page="home"] .cinematic-hero__actions .btn:not(.fill):hover{
 .deal-inclusions{padding:0;margin:0 0 17px;list-style:none;flex:1;min-width:0}
 .deal-inclusions li{position:relative;padding:9px 0 9px 20px;color:var(--cream-ink);font-size:14px;line-height:1.55;border-bottom:1px solid rgba(67,46,29,.22);overflow-wrap:anywhere}
 .deal-inclusions li::before{content:'';position:absolute;left:1px;top:18px;width:6px;height:6px;border-radius:50%;background:#735333}
+.deal-inclusions li.deal-event-header{position:relative;font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:12px;color:#3d2716;padding:12px 10px 8px;background:rgba(97,71,40,.09);border-radius:4px;margin:10px 0 4px;border-bottom:none}
+.deal-inclusions li.deal-event-header::before{display:none}
+.deal-note{font-size:12.5px;line-height:1.55;color:#5c4024;font-style:italic;margin:0 0 10px;padding:7px 11px;background:rgba(97,71,40,.07);border-left:3px solid #8e6538;border-radius:2px}
 .deal-action-row{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:14px;padding-top:14px;border-top:1px solid rgba(67,46,29,.24)}
 .deal-price-block{display:flex;flex-direction:column;min-width:0;flex:1;gap:2px}
 .deal-price-label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#63472a;line-height:1.2}

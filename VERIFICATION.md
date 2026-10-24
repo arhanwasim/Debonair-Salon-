@@ -1,4 +1,21 @@
-# Debonair Salon — Premium UI Refinement Verification (15 October 2026)
+# Debonair Salon — Services & Deals Official Pricing Update (October 2026)
+
+## Summary of Changes
+- **`js/catalog.js`**:
+  - **Men's Collection**: Updated 13 categories (Hair, Kids, Non Surgical Hair Transplant, Hair Treatment, Face, Manual Facials, Cleansings, Hydra Facials, Manicure / Pedicure, Body Care, Threading, Massage, Waxing) with exact client-provided service items and pricing.
+  - **Women's Collection**: Updated categories (Hair, Waxing, Threading, Manicure / Pedicure, Body Care, Nail Art, Nail Services, Nail Glow Removal, Gel & Acrylic Nail Application, Massage, Hair Treatment with length disclaimer, Hydra Facials, Manual Facials, Cleansings) with exact client-provided service items and pricing.
+  - **Packages / Deals Collection (01–47)**: Fully populated all 47 Debonair Deals with updated pricing, specific titles (Walima Package, 2 Day Package, 3 Day Package, Hydra Facial Package), event demarcations (Event 1, Event 2, Event 3), and official notes.
+- **`js/main.js`**: Enhanced deal rendering to support `deal.title`, `deal.note`, and `.deal-event-header` styling for multi-event packages, while preserving all existing card markup, branch selector logic, and WhatsApp enquiry builders.
+- **`css/style.css`**: Added styling for `.deal-event-header` and `.deal-note` adhering to Debonair's warm beige theme and typography tokens.
+
+## Verification & Integrity
+- Syntax check passed: `node --check js/main.js` and `node --check js/catalog.js` both passed with exit code 0.
+- Catalog data validation: Programmatically verified that all 47 deals have consecutive numbers 1 to 47, valid pricing strings, and non-empty inclusion arrays.
+- Local HTTP Server test: Verified HTTP 200 responses for `/services.html`, `/js/catalog.js`, `/js/main.js`, and `/css/style.css`.
+
+---
+
+
 
 ## Modified files
 - `css/style.css`: shared tokens and actual CSS rules for rounded cards (13px), buttons/tabs (10px) and inputs (9px). Introduced scoped warm-cream variants with dark text, darker prices and charcoal WhatsApp buttons. Base dark background, existing gold accent, overall page grids, imagery and layout preserved.
@@ -180,8 +197,24 @@ Latest update: Footer social links now use icon-only Instagram and Facebook acti
 - `js/main.js`: Rendered `.deal-price` element inside each deal card on the Services page (`services.html#deals`). Updated the prefilled WhatsApp enquiry URL to include the package price automatically.
 - `css/style.css`: Added styles for `.deal-price`, `.deal-price-label`, and `.deal-price-val`, maintaining the warm-beige card aesthetic with responsive styling for tablet and mobile screens.
 
-**Verification results:**
-- 47 of 47 deals verified with exact pricing matches and zero missing prices.
-- Node.js syntax and runtime validation passed without errors.
-- HTTP server test verified 200 OK responses for `/services.html`, `/js/catalog.js`, `/js/main.js`, and `/css/style.css`.
+## Services Catalog Overhaul (Men, Women & Packages) — 23 October 2026
+
+**Summary of Changes:**
+- **Men's Collection (13 cards):**
+  - Updated all 13 categories (Hair, Kids, Non Surgical Hair Transplant, Hair Treatment, Face, Manual Facials, Cleansings, Hydra Facials, Manicure/Pedicure, Body Care, Threading, Massage, Waxing) with client's new pricing and item names.
+  - Removed outdated standalone cards: Keratin, Shampoo Wash, Absolute Repair, Hair Protein Treatment, and Relaxing Extenso Rebonding. All hair treatments are now cleanly unified in the dedicated "Hair Treatment" card.
+  - Added new Manual Facials (14 items including Silky Whitening Facial), Body Care (9 items), Massage (10 items), Waxing (10 items), Hair Treatment (5 items), and Threading (5 items).
+- **Women's Collection (14 cards):**
+  - Removed old "Kids" card (with Baby Girl Haircut) as requested.
+  - Split Skin Care into 3 distinct standalone cards:
+    1. **Hydra Facials** (Grand 11 in One Hydra Rs. 10,000, 7 in One Hydra Rs. 5,000).
+    2. **Manual Facials** (12 brands: Skieva through Whitening Golden Pearl).
+    3. **Cleansings** (12 brands: Skieva through Whitening Golden Pearl).
+  - Maintained Hair, Waxing, Threading, Manicure/Pedicure, Body Care, Nail Art, Nail Services, Nail Glow Removal, Gel & Acrylic Nail Application, Massage, and Hair Treatment.
+- **Packages Collection (Deals 01–47):**
+  - All 47 deals active with prices, full inclusions, and event badges for multi-day wedding packages.
+- **Verification:**
+  - `node --check js/main.js; node --check js/catalog.js` executed with exit code 0.
+  - Node VM execution verified: 13 Men categories, 14 Women categories, 47 Deals.
+  - HTTP Server test verified 200 OK for `/services.html`.
 
