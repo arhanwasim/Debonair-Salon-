@@ -278,16 +278,16 @@ body[data-page="home"] .cinematic-hero__actions .btn:not(.fill):hover{
 }
 
 /* Verified supplied deal item lists, uniform beige cards; no fixed heights. */
-.deal-card{display:flex;flex-direction:column;align-items:stretch;gap:12px;height:auto;min-height:0}
+.deal-card{display:flex;flex-direction:column;align-items:stretch;gap:10px;height:auto;min-height:0}
 .deal-card h3{text-transform:uppercase;margin:0 0 4px;overflow-wrap:anywhere;font-size:clamp(20px,1.85vw,24px);letter-spacing:-.02em}
-.deal-includes-title{display:block;font-size:11px;line-height:1.5;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#63472a;margin-top:8px}
-.deal-inclusions{padding:0;margin:0 0 17px;list-style:none;flex:1;min-width:0}
-.deal-inclusions li{position:relative;padding:9px 0 9px 20px;color:var(--cream-ink);font-size:14px;line-height:1.55;border-bottom:1px solid rgba(67,46,29,.22);overflow-wrap:anywhere}
-.deal-inclusions li::before{content:'';position:absolute;left:1px;top:18px;width:6px;height:6px;border-radius:50%;background:#735333}
-.deal-inclusions li.deal-event-header{position:relative;font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:12px;color:#3d2716;padding:12px 10px 8px;background:rgba(97,71,40,.09);border-radius:4px;margin:10px 0 4px;border-bottom:none}
+.deal-includes-title{display:block;font-size:11px;line-height:1.5;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#63472a;margin-top:6px}
+.deal-inclusions{padding:0;margin:0 0 10px;list-style:none;flex:1;min-width:0}
+.deal-inclusions li{position:relative;padding:7px 0 7px 20px;color:var(--cream-ink);font-size:14px;line-height:1.5;border-bottom:1px solid rgba(67,46,29,.22);overflow-wrap:anywhere}
+.deal-inclusions li::before{content:'';position:absolute;left:1px;top:16px;width:6px;height:6px;border-radius:50%;background:#735333}
+.deal-inclusions li.deal-event-header{position:relative;font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:12px;color:#3d2716;padding:10px 10px 6px;background:rgba(97,71,40,.09);border-radius:4px;margin:8px 0 4px;border-bottom:none}
 .deal-inclusions li.deal-event-header::before{display:none}
-.deal-note{font-size:12.5px;line-height:1.55;color:#5c4024;font-style:italic;margin:0 0 10px;padding:7px 11px;background:rgba(97,71,40,.07);border-left:3px solid #8e6538;border-radius:2px}
-.deal-action-row{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:14px;padding-top:14px;border-top:1px solid rgba(67,46,29,.24)}
+.deal-note{font-size:12.5px;line-height:1.55;color:#5c4024;font-style:italic;margin:0 0 8px;padding:7px 11px;background:rgba(97,71,40,.07);border-left:3px solid #8e6538;border-radius:2px}
+.deal-action-row{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:14px;padding-top:10px;border-top:1px solid rgba(67,46,29,.24)}
 .deal-price-block{display:flex;flex-direction:column;min-width:0;flex:1;gap:2px}
 .deal-price-label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#63472a;line-height:1.2}
 .deal-price-val{font-size:clamp(15px,1.25vw,17px);font-weight:700;color:#1c1815;line-height:1.3;letter-spacing:.01em;overflow-wrap:break-word}

@@ -472,7 +472,7 @@
 
       if (area) {
         area.innerHTML = '';
-        area.classList.toggle('catalog-masonry', type !== 'deals');
+        area.classList.add('catalog-masonry');
         const activeBranch = getSelectedBranch() || BRANCHES.bukhari;
 
         if (type === 'deals' && cat && cat.deals) {
