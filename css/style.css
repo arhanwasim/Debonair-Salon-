@@ -407,10 +407,10 @@ body[data-page="about"] .about-cinematic-hero h1{max-width:100%;margin:16px 0 12
 @media(max-width:767px){.services-masthead,.contact-masthead{min-height:clamp(340px,calc(100svh - 65px),720px)}.services-masthead:before,.contact-masthead:before{background-position:55% center}.catalog-grid{row-gap:14px}}
 
 /* Oct 17 focused client corrections: reuse existing approved assets and design tokens. */
-body[data-page="home"] .closing-cta{position:relative;isolation:isolate;min-height:0;padding:clamp(56px,6vw,86px) 20px;background:#17120e url('../assets/salon-interior-concept.jpg') center 48% / cover no-repeat}
-body[data-page="home"] .closing-cta:before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(8,7,6,.67)}
-body[data-page="home"] .closing-cta h2{margin:13px auto 17px}
-body[data-page="home"] .closing-cta p{margin-bottom:23px;color:#f4e7d6}
+body[data-page="home"] .closing-cta,body[data-page="services"] .closing-cta{position:relative;isolation:isolate;min-height:0;padding:clamp(56px,6vw,86px) 20px;background:#17120e url('../assets/salon-interior-concept.jpg') center 48% / cover no-repeat}
+body[data-page="home"] .closing-cta:before,body[data-page="services"] .closing-cta:before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(8,7,6,.67)}
+body[data-page="home"] .closing-cta h2,body[data-page="services"] .closing-cta h2{margin:13px auto 17px}
+body[data-page="home"] .closing-cta p,body[data-page="services"] .closing-cta p{margin-bottom:23px;color:#f4e7d6}
 /* Restore slim photographic banners, with more restrained central branding. */
 body[data-page="services"] .services-masthead,body[data-page="contact"] .contact-masthead{min-height:clamp(230px,25vw,340px);padding:35px 20px}
 body[data-page="services"] .services-masthead h1,body[data-page="contact"] .contact-masthead h1{font-size:clamp(28px,3.5vw,46px)}
@@ -461,7 +461,7 @@ body[data-page="about"] .about-beige-article .eyebrow{color:#624321}
 .float-wa:hover{background:#168d44!important;color:#fff!important}
 .float-wa:focus-visible{outline:3px solid #fff;outline-offset:3px}
 @media(max-width:850px){body[data-page="contact"] .contact-unified-grid{grid-template-columns:1fr}body[data-page="contact"] .contact-unified-right .branch-actions{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){body[data-page="contact"] .contact-unified-right .branch-actions{grid-template-columns:1fr}body[data-page="home"] .closing-cta{padding:55px 16px}}
+@media(max-width:480px){body[data-page="contact"] .contact-unified-right .branch-actions{grid-template-columns:1fr}body[data-page="home"] .closing-cta,body[data-page="services"] .closing-cta{padding:55px 16px}}
 body[data-page="contact"] .contact-unified-left{display:flex;flex-direction:column;gap:22px}
 
 body[data-page="about"] .about-beige-article .about-copy p{color:var(--cream-muted)}
@@ -475,12 +475,12 @@ body[data-page="contact"] .contact-unified-right .branch h3{font-size:16px;line-
 body[data-page="contact"] .contact-unified-right .branch-hours{margin:4px 0 9px;font-size:12px}
 body[data-page="contact"] .contact-unified-right .branch-city{font-size:12px}
 body[data-page="contact"] .contact-unified-right .branch-actions .btn{min-height:38px;padding:6px 7px;font-size:9px}
-body[data-page="home"] .closing-cta{padding-block:clamp(43px,5vw,70px)}
+body[data-page="home"] .closing-cta,body[data-page="services"] .closing-cta{padding-block:clamp(43px,5vw,70px)}
 body[data-page="about"] .about-cinematic-hero{min-height:clamp(230px,25vw,340px);padding:35px 20px}
 body[data-page="about"] .about-cinematic-hero h1{font-size:clamp(28px,3.5vw,46px);letter-spacing:-.025em;margin:8px 0 0}
 body[data-page="about"] .about-cinematic-hero .cinematic-hero__eyebrow{font-family:Cinzel,Georgia,serif;font-size:clamp(12px,1.35vw,17px);letter-spacing:.13em}
 @media(max-width:850px){body[data-page="contact"] .contact-unified-grid{grid-template-columns:1fr}body[data-page="contact"] .contact-unified-left{padding:0}}
-@media(max-width:767px){body[data-page="about"] .about-cinematic-hero{min-height:clamp(230px,25vw,340px);padding:35px 20px}body[data-page="about"] .about-cinematic-hero h1{font-size:clamp(28px,3.5vw,46px);margin:8px 0 0}body[data-page="home"] .closing-cta{padding:45px 16px}}
+@media(max-width:767px){body[data-page="about"] .about-cinematic-hero{min-height:clamp(230px,25vw,340px);padding:35px 20px}body[data-page="about"] .about-cinematic-hero h1{font-size:clamp(28px,3.5vw,46px);margin:8px 0 0}body[data-page="home"] .closing-cta,body[data-page="services"] .closing-cta{padding:45px 16px}}
 
 /* Oct 17: Contact's actual masthead is the canonical banner height. */
 body[data-page="about"] .about-cinematic-hero{height:clamp(230px,25vw,340px);min-height:0;padding:35px 20px;box-sizing:border-box;display:flex;align-items:center;justify-content:center}
